@@ -9,6 +9,10 @@ def home():
 def path():
     return "Super secret path"
 
+@app.route('/health')
+def health():
+    return "OK"
+
 
 
 if __name__ == "__main__":
